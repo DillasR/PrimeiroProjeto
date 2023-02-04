@@ -1,0 +1,64 @@
+.navbar {
+    display: flex;
+    margin: 0.5em 5vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__titulo {
+    display: flex;
+    column-gap: 1em;
+    align-items: center;
+    color: var(--cinza);
+}
+
+.navbar__logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.navbar__titulo-logo {
+    padding-left: 0.5em;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.navegacao__lista {
+    display: flex;
+    gap: 2rem;
+    color: var(--cinza);
+    padding-left: 8em;
+
+}
+
+.navegacao__link {
+    text-decoration: none;
+    color: var(--cinza);
+    font-weight: 500;
+}
+
+button {
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    background: none;
+    color: var(--cinza);
+    font-size: 0.9rem;
+}
+
+.botao__cadastrar {
+    background-color: var(--vinho);
+    color: var(--branco);
+}
+
+.navbar a:hover {
+    color: var(--vinho);
+}
+
+button:hover {
+    background-color: var(--cinza-claro);
+    color: var(--vinho);
+}

@@ -1,0 +1,33 @@
+.formulario {
+    margin-top: 4em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--cor-de-fundo-secundario);
+}
+
+.formulario__titulo {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--cinza-escuro);
+    margin: 2.5em 0 1em 0;
+}
+
+.formulario__texto {
+    font-size: 20px;
+    color: var(--cinza);
+    margin-bottom: 2em;
+}
+
+.formulario__pesquisa {
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    padding: 0.5rem 12rem 0.5rem 1rem;
+    margin-left: -4em;
+    border: 2px solid var(--cinza-claro);
+}
+
+.rodape__formulario {
+    color: var(--cinza);
+    margin: 2em 0 5em 0;
+}

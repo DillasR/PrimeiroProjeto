@@ -1,0 +1,28 @@
+.metricas__caixa {
+    display: flex;
+    align-items: center;
+    text-align: start;
+    margin: 0 2.5em 5em 4.5em;
+}
+
+/* .metricaTexto {
+    padding-right: 5em;
+} */
+
+.metricas__titulo {
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--vinho);
+}
+
+.metricas__subtitulo {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--cinza-escuro);
+    margin: 1em 0;
+}
+
+.metricas__texto {
+    color: var(--cinza);
+
+}
